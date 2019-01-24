@@ -1,0 +1,320 @@
+[2019-01-17 13:43:25] INFO [run: run.py, 58] ================================== 测试开始 ==================================
+[2019-01-17 13:43:28] INFO [log_case_info: case_log.py, 7] 测试用例：test_grant_coupon_to_user_normal
+[2019-01-17 13:43:28] INFO [log_case_info: case_log.py, 8] url:http://127.0.0.1:8081/services/UserCouponBindService/grantCouponToUser
+[2019-01-17 13:43:28] INFO [log_case_info: case_log.py, 9] 请求参数:{"grantCouponToUserDto": {
+   "activityCode": "1001xzxye1",
+   "busiUniqueStr": "test",
+   "grantNum": "1",
+   "distExport": "发券出口",
+   "sourceRefId": "2015",
+   "userId": "12976038"
+}}
+[2019-01-17 13:43:28] INFO [log_case_info: case_log.py, 10] 期望结果:{"errorCode": 0, "result": {"couponGrant": [{"activityCode": "1001xzxye1", "activityName": "\u5bfb\u627e\u5e78\u8fd0\u513f-1", "couponCode": "DJ38fee7c8d7", "faceValue": 25, "validEndDate": 1547308800000, "validStartDate": 1546790400000}], "ifSuccess": true}}
+[2019-01-17 13:43:28] INFO [log_case_info: case_log.py, 11] 实际结果:{"errorCode": 0, "result": {"couponGrant": [{"activityCode": "1001xzxye1", "activityName": "寻找幸运儿-1", "couponCode": "DJ42d7ef26ed", "faceValue": 25, "validEndDate": 1547308800000, "validStartDate": 1546790400000}], "ifSuccess": true}}
+[2019-01-17 13:43:28] INFO [run: run.py, 66] ================================== 测试结束 ==================================
+[2019-01-17 13:51:36] INFO [run: run.py, 58] ================================== 测试开始 ==================================
+[2019-01-17 13:51:39] INFO [log_case_info: case_log.py, 7] 测试用例：test_grant_coupon_to_user_normal
+[2019-01-17 13:51:39] INFO [log_case_info: case_log.py, 8] url:http://127.0.0.1:8081/services/UserCouponBindService/grantCouponToUser
+[2019-01-17 13:51:39] INFO [log_case_info: case_log.py, 9] 请求参数:{"grantCouponToUserDto": {
+   "activityCode": "1001xzxye1",
+   "busiUniqueStr": "test",
+   "grantNum": "1",
+   "distExport": "发券出口",
+   "sourceRefId": "2015",
+   "userId": "12976038"
+}}
+[2019-01-17 13:51:39] INFO [log_case_info: case_log.py, 10] 期望结果:{"errorCode": 0, "result": {"couponGrant": [{"activityCode": "1001xzxye1", "activityName": "\u5bfb\u627e\u5e78\u8fd0\u513f-1", "couponCode": "DJ38fee7c8d7", "faceValue": 25, "validEndDate": 1547308800000, "validStartDate": 1546790400000}], "ifSuccess": true}}
+[2019-01-17 13:51:39] INFO [log_case_info: case_log.py, 11] 实际结果:{"errorCode": 0, "result": {"couponGrant": [{"activityCode": "1001xzxye1", "activityName": "寻找幸运儿-1", "couponCode": "DJ42d7ef26ed", "faceValue": 25, "validEndDate": 1547308800000, "validStartDate": 1546790400000}], "ifSuccess": true}}
+[2019-01-17 13:51:39] INFO [run: run.py, 66] ================================== 测试结束 ==================================
+[2019-01-17 13:58:02] INFO [run: run.py, 58] ================================== 测试开始 ==================================
+[2019-01-17 14:02:49] INFO [run: run.py, 58] ================================== 测试开始 ==================================
+[2019-01-17 14:02:52] INFO [log_case_info: case_log.py, 7] 测试用例：test_grant_coupon_to_user_normal
+[2019-01-17 14:02:52] INFO [log_case_info: case_log.py, 8] url:http://127.0.0.1:8081/services/UserCouponBindService/grantCouponToUser
+[2019-01-17 14:02:52] INFO [log_case_info: case_log.py, 9] 请求参数:{"grantCouponToUserDto": {
+   "activityCode": "1001xzxye1",
+   "busiUniqueStr": "test",
+   "grantNum": "1",
+   "distExport": "发券出口",
+   "sourceRefId": "2015",
+   "userId": "12976038"
+}}
+[2019-01-17 14:02:52] INFO [log_case_info: case_log.py, 10] 期望结果:{"errorCode": 0, "result": {"couponGrant": [{"activityCode": "1001xzxye1", "activityName": "\u5bfb\u627e\u5e78\u8fd0\u513f-1", "couponCode": "DJ38fee7c8d7", "faceValue": 25, "validEndDate": 1547308800000, "validStartDate": 1546790400000}], "ifSuccess": true}}
+[2019-01-17 14:02:52] INFO [log_case_info: case_log.py, 11] 实际结果:{"errorCode": 0, "result": {"couponGrant": [{"activityCode": "1001xzxye1", "activityName": "寻找幸运儿-1", "couponCode": "DJ42d7ef26ed", "faceValue": 25, "validEndDate": 1547308800000, "validStartDate": 1546790400000}], "ifSuccess": true}}
+[2019-01-17 14:02:52] INFO [run: run.py, 66] ================================== 测试结束 ==================================
+[2019-01-17 14:03:15] INFO [run: run.py, 58] ================================== 测试开始 ==================================
+[2019-01-17 15:04:57] INFO [run: run.py, 58] ================================== 测试开始 ==================================
+[2019-01-17 15:04:57] INFO [log_case_info: case_log.py, 7] 测试用例：test_grant_coupon_to_user_wrong
+[2019-01-17 15:04:57] INFO [log_case_info: case_log.py, 8] url:http://127.0.0.1:8081/services/UserCouponBindService/grantCouponToUser
+[2019-01-17 15:04:57] INFO [log_case_info: case_log.py, 9] 请求参数:{"grantCouponToUserDto": {
+   "activityCode": "1001xzxye3",
+   "busiUniqueStr": "test",
+   "grantNum": "1",
+   "distExport": "发券出口",
+   "sourceRefId": "2015",
+   "userId": "12976038"
+}}
+[2019-01-17 15:04:57] INFO [log_case_info: case_log.py, 10] 期望结果:{"errorCode": 0, "result": {"errorCode": "0001", "errorMsg": " \u6ca1\u6709\u67e5\u5230\u6d3b\u52a8\u5238\u7684\u4fe1\u606f", "ifSuccess": false}}
+[2019-01-17 15:04:57] INFO [log_case_info: case_log.py, 11] 实际结果:{"errorCode": 0, "result": {"errorCode": "0001", "errorMsg": " 没有查到活动券的信息", "ifSuccess": false}}
+[2019-01-17 15:04:57] INFO [run: run.py, 66] ================================== 测试结束 ==================================
+[2019-01-17 15:35:46] INFO [run: run.py, 58] ================================== 测试开始 ==================================
+[2019-01-17 15:35:49] INFO [log_case_info: case_log.py, 7] 测试用例：test_grant_coupon_to_user_normal
+[2019-01-17 15:35:49] INFO [log_case_info: case_log.py, 8] url:http://127.0.0.1:8081/services/UserCouponBindService/grantCouponToUser
+[2019-01-17 15:35:49] INFO [log_case_info: case_log.py, 9] 请求参数:{"grantCouponToUserDto": {
+   "activityCode": "1001xzxye1",
+   "busiUniqueStr": "test",
+   "grantNum": "1",
+   "distExport": "发券出口",
+   "sourceRefId": "2015",
+   "userId": "12976038"
+}}
+[2019-01-17 15:35:49] INFO [log_case_info: case_log.py, 10] 期望结果:{"errorCode": 0, "result": {"couponGrant": [{"activityCode": "1001xzxye1", "activityName": "\u5bfb\u627e\u5e78\u8fd0\u513f-1", "couponCode": "DJ38fee7c8d7", "faceValue": 25, "validEndDate": 1547308800000, "validStartDate": 1546790400000}], "ifSuccess": true}}
+[2019-01-17 15:35:49] INFO [log_case_info: case_log.py, 11] 实际结果:{"errorCode": 0, "result": {"couponGrant": [{"activityCode": "1001xzxye1", "activityName": "寻找幸运儿-1", "couponCode": "DJ42d7ef26ed", "faceValue": 25, "validEndDate": 1547308800000, "validStartDate": 1546790400000}], "ifSuccess": true}}
+[2019-01-17 15:35:49] INFO [log_case_info: case_log.py, 7] 测试用例：test_grant_coupon_to_user_wrong
+[2019-01-17 15:35:49] INFO [log_case_info: case_log.py, 8] url:http://127.0.0.1:8081/services/UserCouponBindService/grantCouponToUser
+[2019-01-17 15:35:49] INFO [log_case_info: case_log.py, 9] 请求参数:{"grantCouponToUserDto": {
+   "activityCode": "1001xzxye3",
+   "busiUniqueStr": "test",
+   "grantNum": "1",
+   "distExport": "发券出口",
+   "sourceRefId": "2015",
+   "userId": "12976038"
+}}
+[2019-01-17 15:35:49] INFO [log_case_info: case_log.py, 10] 期望结果:{"errorCode": 0, "result": {"errorCode": "0001", "errorMsg": " \u6ca1\u6709\u67e5\u5230\u6d3b\u52a8\u5238\u7684\u4fe1\u606f", "ifSuccess": false}}
+[2019-01-17 15:35:49] INFO [log_case_info: case_log.py, 11] 实际结果:{"errorCode": 0, "result": {"errorCode": "0001", "errorMsg": " 没有查到活动券的信息", "ifSuccess": false}}
+[2019-01-17 15:37:21] INFO [run: run.py, 58] ================================== 测试开始 ==================================
+[2019-01-17 15:37:24] INFO [log_case_info: case_log.py, 7] 测试用例：test_grant_coupon_to_user_normal
+[2019-01-17 15:37:24] INFO [log_case_info: case_log.py, 8] url:http://127.0.0.1:8081/services/UserCouponBindService/grantCouponToUser
+[2019-01-17 15:37:24] INFO [log_case_info: case_log.py, 9] 请求参数:{"grantCouponToUserDto": {
+   "activityCode": "1001xzxye1",
+   "busiUniqueStr": "test",
+   "grantNum": "1",
+   "distExport": "发券出口",
+   "sourceRefId": "2015",
+   "userId": "12976038"
+}}
+[2019-01-17 15:37:24] INFO [log_case_info: case_log.py, 10] 期望结果:{"errorCode": 0, "result": {"couponGrant": [{"activityCode": "1001xzxye1", "activityName": "\u5bfb\u627e\u5e78\u8fd0\u513f-1", "couponCode": "DJ38fee7c8d7", "faceValue": 25, "validEndDate": 1547308800000, "validStartDate": 1546790400000}], "ifSuccess": true}}
+[2019-01-17 15:37:24] INFO [log_case_info: case_log.py, 11] 实际结果:{"errorCode": 0, "result": {"couponGrant": [{"activityCode": "1001xzxye1", "activityName": "寻找幸运儿-1", "couponCode": "DJ42d7ef26ed", "faceValue": 25, "validEndDate": 1547308800000, "validStartDate": 1546790400000}], "ifSuccess": true}}
+[2019-01-17 15:37:24] INFO [log_case_info: case_log.py, 7] 测试用例：test_grant_coupon_to_user_wrong
+[2019-01-17 15:37:24] INFO [log_case_info: case_log.py, 8] url:http://127.0.0.1:8081/services/UserCouponBindService/grantCouponToUser
+[2019-01-17 15:37:24] INFO [log_case_info: case_log.py, 9] 请求参数:{"grantCouponToUserDto": {
+   "activityCode": "1001xzxye3",
+   "busiUniqueStr": "test",
+   "grantNum": "1",
+   "distExport": "发券出口",
+   "sourceRefId": "2015",
+   "userId": "12976038"
+}}
+[2019-01-17 15:37:24] INFO [log_case_info: case_log.py, 10] 期望结果:{"errorCode": 0, "result": {"errorCode": "0001", "errorMsg": " \u6ca1\u6709\u67e5\u5230\u6d3b\u52a8\u5238\u7684\u4fe1\u606f", "ifSuccess": false}}
+[2019-01-17 15:37:24] INFO [log_case_info: case_log.py, 11] 实际结果:{"errorCode": 0, "result": {"errorCode": "0001", "errorMsg": " 没有查到活动券的信息", "ifSuccess": false}}
+[2019-01-17 15:37:24] INFO [run: run.py, 66] ================================== 测试结束 ==================================
+[2019-01-17 15:37:41] INFO [run: run.py, 58] ================================== 测试开始 ==================================
+[2019-01-17 15:37:44] INFO [log_case_info: case_log.py, 7] 测试用例：test_grant_coupon_to_user_normal
+[2019-01-17 15:37:44] INFO [log_case_info: case_log.py, 8] url:http://127.0.0.1:8081/services/UserCouponBindService/grantCouponToUser
+[2019-01-17 15:37:44] INFO [log_case_info: case_log.py, 9] 请求参数:{"grantCouponToUserDto": {
+   "activityCode": "1001xzxye1",
+   "busiUniqueStr": "test",
+   "grantNum": "1",
+   "distExport": "发券出口",
+   "sourceRefId": "2015",
+   "userId": "12976038"
+}}
+[2019-01-17 15:37:44] INFO [log_case_info: case_log.py, 10] 期望结果:{"errorCode": 0, "result": {"couponGrant": [{"activityCode": "1001xzxye1", "activityName": "\u5bfb\u627e\u5e78\u8fd0\u513f-1", "couponCode": "DJ38fee7c8d7", "faceValue": 25, "validEndDate": 1547308800000, "validStartDate": 1546790400000}], "ifSuccess": true}}
+[2019-01-17 15:37:44] INFO [log_case_info: case_log.py, 11] 实际结果:{"errorCode": 0, "result": {"couponGrant": [{"activityCode": "1001xzxye1", "activityName": "寻找幸运儿-1", "couponCode": "DJ42d7ef26ed", "faceValue": 25, "validEndDate": 1547308800000, "validStartDate": 1546790400000}], "ifSuccess": true}}
+[2019-01-17 15:37:44] INFO [log_case_info: case_log.py, 7] 测试用例：test_grant_coupon_to_user_wrong
+[2019-01-17 15:37:44] INFO [log_case_info: case_log.py, 8] url:http://127.0.0.1:8081/services/UserCouponBindService/grantCouponToUser
+[2019-01-17 15:37:44] INFO [log_case_info: case_log.py, 9] 请求参数:{"grantCouponToUserDto": {
+   "activityCode": "1001xzxye3",
+   "busiUniqueStr": "test",
+   "grantNum": "1",
+   "distExport": "发券出口",
+   "sourceRefId": "2015",
+   "userId": "12976038"
+}}
+[2019-01-17 15:37:44] INFO [log_case_info: case_log.py, 10] 期望结果:{"errorCode": 0, "result": {"errorCode": "0001", "errorMsg": " \u6ca1\u6709\u67e5\u5230\u6d3b\u52a8\u5238\u7684\u4fe1\u606f", "ifSuccess": false}}
+[2019-01-17 15:37:44] INFO [log_case_info: case_log.py, 11] 实际结果:{"errorCode": 0, "result": {"errorCode": "0001", "errorMsg": " 没有查到活动券的信息", "ifSuccess": false}}
+[2019-01-17 15:42:11] INFO [run: run.py, 59] ================================== 测试开始 ==================================
+[2019-01-17 15:42:14] INFO [log_case_info: case_log.py, 7] 测试用例：test_grant_coupon_to_user_normal
+[2019-01-17 15:42:14] INFO [log_case_info: case_log.py, 8] url:http://127.0.0.1:8081/services/UserCouponBindService/grantCouponToUser
+[2019-01-17 15:42:14] INFO [log_case_info: case_log.py, 9] 请求参数:{"grantCouponToUserDto": {
+   "activityCode": "1001xzxye1",
+   "busiUniqueStr": "test",
+   "grantNum": "1",
+   "distExport": "发券出口",
+   "sourceRefId": "2015",
+   "userId": "12976038"
+}}
+[2019-01-17 15:42:14] INFO [log_case_info: case_log.py, 10] 期望结果:{"errorCode": 0, "result": {"couponGrant": [{"activityCode": "1001xzxye1", "activityName": "\u5bfb\u627e\u5e78\u8fd0\u513f-1", "couponCode": "DJ38fee7c8d7", "faceValue": 25, "validEndDate": 1547308800000, "validStartDate": 1546790400000}], "ifSuccess": true}}
+[2019-01-17 15:42:14] INFO [log_case_info: case_log.py, 11] 实际结果:{"errorCode": 0, "result": {"couponGrant": [{"activityCode": "1001xzxye1", "activityName": "寻找幸运儿-1", "couponCode": "DJ42d7ef26ed", "faceValue": 25, "validEndDate": 1547308800000, "validStartDate": 1546790400000}], "ifSuccess": true}}
+[2019-01-17 15:42:14] INFO [log_case_info: case_log.py, 7] 测试用例：test_grant_coupon_to_user_wrong
+[2019-01-17 15:42:14] INFO [log_case_info: case_log.py, 8] url:http://127.0.0.1:8081/services/UserCouponBindService/grantCouponToUser
+[2019-01-17 15:42:14] INFO [log_case_info: case_log.py, 9] 请求参数:{"grantCouponToUserDto": {
+   "activityCode": "1001xzxye3",
+   "busiUniqueStr": "test",
+   "grantNum": "1",
+   "distExport": "发券出口",
+   "sourceRefId": "2015",
+   "userId": "12976038"
+}}
+[2019-01-17 15:42:14] INFO [log_case_info: case_log.py, 10] 期望结果:{"errorCode": 0, "result": {"errorCode": "0001", "errorMsg": " \u6ca1\u6709\u67e5\u5230\u6d3b\u52a8\u5238\u7684\u4fe1\u606f", "ifSuccess": false}}
+[2019-01-17 15:42:14] INFO [log_case_info: case_log.py, 11] 实际结果:{"errorCode": 0, "result": {"errorCode": "0001", "errorMsg": " 没有查到活动券的信息", "ifSuccess": false}}
+[2019-01-17 15:42:14] INFO [run: run.py, 67] ================================== 测试结束 ==================================
+[2019-01-17 15:47:59] INFO [run: run.py, 59] ================================== 测试开始 ==================================
+[2019-01-17 15:48:02] INFO [log_case_info: case_log.py, 7] 测试用例：test_grant_coupon_to_user_normal
+[2019-01-17 15:48:02] INFO [log_case_info: case_log.py, 8] url:http://127.0.0.1:8081/services/UserCouponBindService/grantCouponToUser
+[2019-01-17 15:48:02] INFO [log_case_info: case_log.py, 9] 请求参数:{"grantCouponToUserDto": {
+   "activityCode": "1001xzxye1",
+   "busiUniqueStr": "test",
+   "grantNum": "1",
+   "distExport": "发券出口",
+   "sourceRefId": "2015",
+   "userId": "12976038"
+}}
+[2019-01-17 15:48:02] INFO [log_case_info: case_log.py, 10] 期望结果:{"errorCode": 0, "result": {"couponGrant": [{"activityCode": "1001xzxye1", "activityName": "\u5bfb\u627e\u5e78\u8fd0\u513f-1", "couponCode": "DJ38fee7c8d7", "faceValue": 25, "validEndDate": 1547308800000, "validStartDate": 1546790400000}], "ifSuccess": true}}
+[2019-01-17 15:48:02] INFO [log_case_info: case_log.py, 11] 实际结果:{"errorCode": 0, "result": {"couponGrant": [{"activityCode": "1001xzxye1", "activityName": "寻找幸运儿-1", "couponCode": "DJ42d7ef26ed", "faceValue": 25, "validEndDate": 1547308800000, "validStartDate": 1546790400000}], "ifSuccess": true}}
+[2019-01-17 15:48:02] INFO [log_case_info: case_log.py, 7] 测试用例：test_grant_coupon_to_user_wrong
+[2019-01-17 15:48:02] INFO [log_case_info: case_log.py, 8] url:http://127.0.0.1:8081/services/UserCouponBindService/grantCouponToUser
+[2019-01-17 15:48:02] INFO [log_case_info: case_log.py, 9] 请求参数:{"grantCouponToUserDto": {
+   "activityCode": "1001xzxye3",
+   "busiUniqueStr": "test",
+   "grantNum": "1",
+   "distExport": "发券出口",
+   "sourceRefId": "2015",
+   "userId": "12976038"
+}}
+[2019-01-17 15:48:02] INFO [log_case_info: case_log.py, 10] 期望结果:{"errorCode": 0, "result": {"errorCode": "0001", "errorMsg": " \u6ca1\u6709\u67e5\u5230\u6d3b\u52a8\u5238\u7684\u4fe1\u606f", "ifSuccess": false}}
+[2019-01-17 15:48:02] INFO [log_case_info: case_log.py, 11] 实际结果:{"errorCode": 0, "result": {"errorCode": "0001", "errorMsg": " 没有查到活动券的信息", "ifSuccess": false}}
+[2019-01-17 18:23:36] INFO [run: run.py, 59] ================================== 测试开始 ==================================
+[2019-01-17 18:23:39] INFO [log_case_info: case_log.py, 7] 测试用例：test_grant_coupon_to_user_normal
+[2019-01-17 18:23:39] INFO [log_case_info: case_log.py, 8] url:http://127.0.0.1:8081/services/UserCouponBindService/grantCouponToUser
+[2019-01-17 18:23:39] INFO [log_case_info: case_log.py, 9] 请求参数:{"grantCouponToUserDto": {
+   "activityCode": "1001xzxye1",
+   "busiUniqueStr": "test",
+   "grantNum": "1",
+   "distExport": "发券出口",
+   "sourceRefId": "2015",
+   "userId": "12976038"
+}}
+[2019-01-17 18:23:39] INFO [log_case_info: case_log.py, 10] 期望结果:{"errorCode": 0, "result": {"couponGrant": [{"activityCode": "1001xzxye1", "activityName": "\u5bfb\u627e\u5e78\u8fd0\u513f-1", "couponCode": "DJ38fee7c8d7", "faceValue": 25, "validEndDate": 1547308800000, "validStartDate": 1546790400000}], "ifSuccess": true}}
+[2019-01-17 18:23:39] INFO [log_case_info: case_log.py, 11] 实际结果:{"errorCode": 0, "result": {"couponGrant": [{"activityCode": "1001xzxye1", "activityName": "寻找幸运儿-1", "couponCode": "DJ42d7ef26ed", "faceValue": 25, "validEndDate": 1547308800000, "validStartDate": 1546790400000}], "ifSuccess": true}}
+[2019-01-17 18:23:39] INFO [log_case_info: case_log.py, 7] 测试用例：test_grant_coupon_to_user_wrong
+[2019-01-17 18:23:39] INFO [log_case_info: case_log.py, 8] url:http://127.0.0.1:8081/services/UserCouponBindService/grantCouponToUser
+[2019-01-17 18:23:39] INFO [log_case_info: case_log.py, 9] 请求参数:{"grantCouponToUserDto": {
+   "activityCode": "1001xzxye3",
+   "busiUniqueStr": "test",
+   "grantNum": "1",
+   "distExport": "发券出口",
+   "sourceRefId": "2015",
+   "userId": "12976038"
+}}
+[2019-01-17 18:23:39] INFO [log_case_info: case_log.py, 10] 期望结果:{"errorCode": 0, "result": {"errorCode": "0001", "errorMsg": " \u6ca1\u6709\u67e5\u5230\u6d3b\u52a8\u5238\u7684\u4fe1\u606f", "ifSuccess": false}}
+[2019-01-17 18:23:39] INFO [log_case_info: case_log.py, 11] 实际结果:{"errorCode": 0, "result": {"errorCode": "0001", "errorMsg": " 没有查到活动券的信息", "ifSuccess": false}}
+[2019-01-17 18:24:53] INFO [run: run.py, 58] ================================== 测试开始 ==================================
+[2019-01-17 18:24:56] INFO [log_case_info: case_log.py, 7] 测试用例：test_grant_coupon_to_user_normal
+[2019-01-17 18:24:56] INFO [log_case_info: case_log.py, 8] url:http://127.0.0.1:8081/services/UserCouponBindService/grantCouponToUser
+[2019-01-17 18:24:56] INFO [log_case_info: case_log.py, 9] 请求参数:{"grantCouponToUserDto": {
+   "activityCode": "1001xzxye1",
+   "busiUniqueStr": "test",
+   "grantNum": "1",
+   "distExport": "发券出口",
+   "sourceRefId": "2015",
+   "userId": "12976038"
+}}
+[2019-01-17 18:24:56] INFO [log_case_info: case_log.py, 10] 期望结果:{"errorCode": 0, "result": {"couponGrant": [{"activityCode": "1001xzxye1", "activityName": "\u5bfb\u627e\u5e78\u8fd0\u513f-1", "couponCode": "DJ38fee7c8d7", "faceValue": 25, "validEndDate": 1547308800000, "validStartDate": 1546790400000}], "ifSuccess": true}}
+[2019-01-17 18:24:56] INFO [log_case_info: case_log.py, 11] 实际结果:{"errorCode": 0, "result": {"couponGrant": [{"activityCode": "1001xzxye1", "activityName": "寻找幸运儿-1", "couponCode": "DJ42d7ef26ed", "faceValue": 25, "validEndDate": 1547308800000, "validStartDate": 1546790400000}], "ifSuccess": true}}
+[2019-01-17 18:24:56] INFO [log_case_info: case_log.py, 7] 测试用例：test_grant_coupon_to_user_wrong
+[2019-01-17 18:24:56] INFO [log_case_info: case_log.py, 8] url:http://127.0.0.1:8081/services/UserCouponBindService/grantCouponToUser
+[2019-01-17 18:24:56] INFO [log_case_info: case_log.py, 9] 请求参数:{"grantCouponToUserDto": {
+   "activityCode": "1001xzxye3",
+   "busiUniqueStr": "test",
+   "grantNum": "1",
+   "distExport": "发券出口",
+   "sourceRefId": "2015",
+   "userId": "12976038"
+}}
+[2019-01-17 18:24:56] INFO [log_case_info: case_log.py, 10] 期望结果:{"errorCode": 0, "result": {"errorCode": "0001", "errorMsg": " \u6ca1\u6709\u67e5\u5230\u6d3b\u52a8\u5238\u7684\u4fe1\u606f", "ifSuccess": false}}
+[2019-01-17 18:24:56] INFO [log_case_info: case_log.py, 11] 实际结果:{"errorCode": 0, "result": {"errorCode": "0001", "errorMsg": " 没有查到活动券的信息", "ifSuccess": false}}
+[2019-01-17 18:24:56] INFO [run: run.py, 66] ================================== 测试结束 ==================================
+[2019-01-17 18:26:04] INFO [run: run.py, 58] ================================== 测试开始 ==================================
+[2019-01-17 18:26:07] INFO [log_case_info: case_log.py, 7] 测试用例：test_grant_coupon_to_user_normal
+[2019-01-17 18:26:07] INFO [log_case_info: case_log.py, 8] url:http://127.0.0.1:8081/services/UserCouponBindService/grantCouponToUser
+[2019-01-17 18:26:07] INFO [log_case_info: case_log.py, 9] 请求参数:{"grantCouponToUserDto": {
+   "activityCode": "1001xzxye1",
+   "busiUniqueStr": "test",
+   "grantNum": "1",
+   "distExport": "发券出口",
+   "sourceRefId": "2015",
+   "userId": "12976038"
+}}
+[2019-01-17 18:26:07] INFO [log_case_info: case_log.py, 10] 期望结果:{"errorCode": 0, "result": {"couponGrant": [{"activityCode": "1001xzxye1", "activityName": "\u5bfb\u627e\u5e78\u8fd0\u513f-1", "couponCode": "DJ38fee7c8d7", "faceValue": 25, "validEndDate": 1547308800000, "validStartDate": 1546790400000}], "ifSuccess": true}}
+[2019-01-17 18:26:07] INFO [log_case_info: case_log.py, 11] 实际结果:{"errorCode": 0, "result": {"couponGrant": [{"activityCode": "1001xzxye1", "activityName": "寻找幸运儿-1", "couponCode": "DJ42d7ef26ed", "faceValue": 25, "validEndDate": 1547308800000, "validStartDate": 1546790400000}], "ifSuccess": true}}
+[2019-01-17 18:26:07] INFO [run: run.py, 66] ================================== 测试结束 ==================================
+[2019-01-17 18:26:46] INFO [run: run.py, 58] ================================== 测试开始 ==================================
+[2019-01-17 18:26:48] INFO [log_case_info: case_log.py, 7] 测试用例：test_grant_coupon_to_user_normal
+[2019-01-17 18:26:48] INFO [log_case_info: case_log.py, 8] url:http://127.0.0.1:8081/services/UserCouponBindService/grantCouponToUser
+[2019-01-17 18:26:48] INFO [log_case_info: case_log.py, 9] 请求参数:{"grantCouponToUserDto": {
+   "activityCode": "1001xzxye1",
+   "busiUniqueStr": "test",
+   "grantNum": "1",
+   "distExport": "发券出口",
+   "sourceRefId": "2015",
+   "userId": "12976038"
+}}
+[2019-01-17 18:26:48] INFO [log_case_info: case_log.py, 10] 期望结果:{"errorCode": 0, "result": {"couponGrant": [{"activityCode": "1001xzxye1", "activityName": "\u5bfb\u627e\u5e78\u8fd0\u513f-1", "couponCode": "DJ38fee7c8d7", "faceValue": 25, "validEndDate": 1547308800000, "validStartDate": 1546790400000}], "ifSuccess": true}}
+[2019-01-17 18:26:48] INFO [log_case_info: case_log.py, 11] 实际结果:{"errorCode": 0, "result": {"couponGrant": [{"activityCode": "1001xzxye1", "activityName": "寻找幸运儿-1", "couponCode": "DJ42d7ef26ed", "faceValue": 25, "validEndDate": 1547308800000, "validStartDate": 1546790400000}], "ifSuccess": true}}
+[2019-01-17 18:26:48] INFO [run: run.py, 66] ================================== 测试结束 ==================================
+[2019-01-17 18:52:04] INFO [run: run.py, 58] ================================== 测试开始 ==================================
+[2019-01-17 18:52:06] INFO [log_case_info: case_log.py, 7] 测试用例：test_grant_coupon_to_user_normal
+[2019-01-17 18:52:06] INFO [log_case_info: case_log.py, 8] url:http://127.0.0.1:8081/services/UserCouponBindService/grantCouponToUser
+[2019-01-17 18:52:06] INFO [log_case_info: case_log.py, 9] 请求参数:{"grantCouponToUserDto": {
+   "activityCode": "1001xzxye1",
+   "busiUniqueStr": "test",
+   "grantNum": "1",
+   "distExport": "发券出口",
+   "sourceRefId": "2015",
+   "userId": "12976038"
+}}
+[2019-01-17 18:52:06] INFO [log_case_info: case_log.py, 10] 期望结果:{"errorCode": 0, "result": {"couponGrant": [{"activityCode": "1001xzxye1", "activityName": "\u5bfb\u627e\u5e78\u8fd0\u513f-1", "couponCode": "DJ38fee7c8d7", "faceValue": 25, "validEndDate": 1547308800000, "validStartDate": 1546790400000}], "ifSuccess": true}}
+[2019-01-17 18:52:06] INFO [log_case_info: case_log.py, 11] 实际结果:{"errorCode": 0, "result": {"couponGrant": [{"activityCode": "1001xzxye1", "activityName": "寻找幸运儿-1", "couponCode": "DJ42d7ef26ed", "faceValue": 25, "validEndDate": 1547308800000, "validStartDate": 1546790400000}], "ifSuccess": true}}
+[2019-01-17 18:52:06] INFO [run: run.py, 66] ================================== 测试结束 ==================================
+[2019-01-17 19:09:38] INFO [run: run.py, 58] ================================== 测试开始 ==================================
+[2019-01-17 19:09:40] INFO [log_case_info: case_log.py, 7] 测试用例：test_grant_coupon_to_user_normal
+[2019-01-17 19:09:40] INFO [log_case_info: case_log.py, 8] url:http://127.0.0.1:8081/services/UserCouponBindService/grantCouponToUser
+[2019-01-17 19:09:40] INFO [log_case_info: case_log.py, 9] 请求参数:{"grantCouponToUserDto": {
+   "activityCode": "1001xzxye1",
+   "busiUniqueStr": "test",
+   "grantNum": "1",
+   "distExport": "发券出口",
+   "sourceRefId": "2015",
+   "userId": "12976038"
+}}
+[2019-01-17 19:09:40] INFO [log_case_info: case_log.py, 10] 期望结果:{"errorCode": 0, "result": {"couponGrant": [{"activityCode": "1001xzxye1", "activityName": "\u5bfb\u627e\u5e78\u8fd0\u513f-1", "couponCode": "DJ38fee7c8d7", "faceValue": 25, "validEndDate": 1547308800000, "validStartDate": 1546790400000}], "ifSuccess": true}}
+[2019-01-17 19:09:40] INFO [log_case_info: case_log.py, 11] 实际结果:{"errorCode": 0, "result": {"couponGrant": [{"activityCode": "1001xzxye1", "activityName": "寻找幸运儿-1", "couponCode": "DJ42d7ef26ed", "faceValue": 25, "validEndDate": 1547308800000, "validStartDate": 1546790400000}], "ifSuccess": true}}
+[2019-01-17 19:09:40] INFO [run: run.py, 66] ================================== 测试结束 ==================================
+[2019-01-17 19:10:21] INFO [run: run.py, 58] ================================== 测试开始 ==================================
+[2019-01-17 19:10:22] INFO [log_case_info: case_log.py, 7] 测试用例：test_grant_coupon_to_user_wrong
+[2019-01-17 19:10:22] INFO [log_case_info: case_log.py, 8] url:http://127.0.0.1:8081/services/UserCouponBindService/grantCouponToUser
+[2019-01-17 19:10:22] INFO [log_case_info: case_log.py, 9] 请求参数:{"grantCouponToUserDto": {
+   "activityCode": "1001xzxye3",
+   "busiUniqueStr": "test",
+   "grantNum": "1",
+   "distExport": "发券出口",
+   "sourceRefId": "2015",
+   "userId": "12976038"
+}}
+[2019-01-17 19:10:22] INFO [log_case_info: case_log.py, 10] 期望结果:{"errorCode": 0, "result": {"errorCode": "0001", "errorMsg": " \u6ca1\u6709\u67e5\u5230\u6d3b\u52a8\u5238\u7684\u4fe1\u606f", "ifSuccess": false}}
+[2019-01-17 19:10:22] INFO [log_case_info: case_log.py, 11] 实际结果:{"errorCode": 0, "result": {"errorCode": "0001", "errorMsg": " 没有查到活动券的信息", "ifSuccess": false}}
+[2019-01-17 19:10:22] INFO [run: run.py, 66] ================================== 测试结束 ==================================
+[2019-01-17 19:11:16] INFO [run: run.py, 58] ================================== 测试开始 ==================================
+[2019-01-17 19:11:19] INFO [log_case_info: case_log.py, 7] 测试用例：test_grant_coupon_to_user_normal
+[2019-01-17 19:11:19] INFO [log_case_info: case_log.py, 8] url:http://127.0.0.1:8081/services/UserCouponBindService/grantCouponToUser
+[2019-01-17 19:11:19] INFO [log_case_info: case_log.py, 9] 请求参数:{"grantCouponToUserDto": {
+   "activityCode": "1001xzxye1",
+   "busiUniqueStr": "test",
+   "grantNum": "1",
+   "distExport": "发券出口",
+   "sourceRefId": "2015",
+   "userId": "12976038"
+}}
+[2019-01-17 19:11:19] INFO [log_case_info: case_log.py, 10] 期望结果:{"errorCode": 0, "result": {"couponGrant": [{"activityCode": "1001xzxye1", "activityName": "\u5bfb\u627e\u5e78\u8fd0\u513f-1", "couponCode": "DJ38fee7c8d7", "faceValue": 25, "validEndDate": 1547308800000, "validStartDate": 1546790400000}], "ifSuccess": true}}
+[2019-01-17 19:11:19] INFO [log_case_info: case_log.py, 11] 实际结果:{"errorCode": 0, "result": {"couponGrant": [{"activityCode": "1001xzxye1", "activityName": "寻找幸运儿-1", "couponCode": "DJ42d7ef26ed", "faceValue": 25, "validEndDate": 1547308800000, "validStartDate": 1546790400000}], "ifSuccess": true}}
+[2019-01-17 19:11:19] INFO [run: run.py, 66] ================================== 测试结束 ==================================
